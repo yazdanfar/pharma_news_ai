@@ -1,0 +1,27 @@
+{
+    "rss_feeds": [
+        "https://www.fiercepharma.com/rss/xml",
+        "https://www.biopharmadive.com/feeds/news/",
+        "https://www.pharmaceutical-technology.com/feed/",
+        "https://www.drugdiscoverytrends.com/feed/",
+        "https://www.pharmtech.com/feed"
+    ],
+    "data_dir": "data",
+    "summarizer_model": "facebook/bart-large-cnn",
+    "text_generator_model": "EleutherAI/gpt-neo-1.3B",
+    "social_credentials": {
+        "linkedin": {
+            "username": "your_username",
+            "password": "your_password"
+        },
+        "facebook": {
+            "access_token": "your_access_token"
+        },
+        "twitter": {
+            "consumer_key": "your_consumer_key",
+            "consumer_secret": "your_consumer_secret",
+            "access_token": "your_access_token",
+            "access_token_secret": "your_access_token_secret"
+        }
+    }
+}
